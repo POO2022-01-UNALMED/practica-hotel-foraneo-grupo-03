@@ -8,6 +8,7 @@ from excepciones.ErrorFormato  import *
 class FieldFrame (Frame):
 
     #Constructor
+    #init
     def __init__(self, parent, tituloCriterios, criterios, tituloValores, valoresIniciales, habilitado,tipo_esperado):
         super().__init__(parent)
 
